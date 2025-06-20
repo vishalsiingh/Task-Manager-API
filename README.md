@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Task Manager API
 
 This is a custom-built REST API for managing tasks using Node.js, Express, and MongoDB.
@@ -30,3 +31,6 @@ This is a custom-built REST API for managing tasks using Node.js, Express, and M
 git clone https://github.com/<your-username>/task-api-server
 cd task-api-server
 npm install
+=======
+# Task-Manager-API
+>>>>>>> a24e36d87ef09b7ae495c1fe9a41f6dede44e21c
