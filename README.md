@@ -18,10 +18,33 @@ A full-stack Task Manager app built with **Node.js**, **Express**, and **MongoDB
 * ✅ Delete tasks
 * ⏰ Real-time date and clock in the UI
 * 🎨 Fully responsive and modern Tailwind-based design
+* MongoDB integration with Mongoose
+- Jest + Supertest-based unit, integration & API tests
+- 97%+ test coverage
+- Deployment-ready on platforms like Render
+
 
 ---
+## 🛠️ Tech Stack
 
-## 🧠 API Endpoints
+| Layer          | Tool                         |
+|----------------|------------------------------|
+| Backend        | Node.js, Express             |
+| Database       | MongoDB (via Mongoose)       |
+| Frontend       | HTML, CSS (TailwindCSS)      |
+| Testing        | Jest, Supertest, mongodb-memory-server |
+| Deployment     | Render + GitHub              |
+
+
+## 🧪 API Endpoints
+
+| Method | Endpoint           | Description              |
+|--------|--------------------|--------------------------|
+| GET    | `/api/tasks`       | Get all tasks            |
+| POST   | `/api/tasks`       | Create a new task        |
+| PUT    | `/api/tasks/:id`   | Update task by ID        |
+| DELETE | `/api/tasks/:id`   | Delete task by ID        |
+
 
 Base URL: `http://localhost:5000/api/tasks` or Render deployed link
 
@@ -76,6 +99,31 @@ curl -X DELETE http://localhost:5000/api/tasks/<task_id>
 ```
 
 ---
+## 🧰 Testing Frameworks and Tools Used
+
+| Tool                  | Purpose                                          |
+|-----------------------|--------------------------------------------------|
+| **Jest**              | Unit, integration, and API testing              |
+| **Supertest**         | Testing HTTP requests/responses                 |
+| **mongodb-memory-server** | In-memory MongoDB instance for safe testing |
+| **dotenv**            | Load test environment variables                 |
+
+---
+
+## 📸 Test Coverage Screenshot
+
+✔️ Achieved **~97% test coverage** across all components.
+
+
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/9db2b1b2-dc80-435e-8e53-15113c7375d1" />
+
+## 📸 Deployed Screenshot
+
+✔️ Achieved **Best UI**across all components.
+<img width="943" alt="image" src="https://github.com/user-attachments/assets/19cdebba-dbee-40c5-95a6-9a1da9928bd0" />
+
+
+
 
 ## 🗃️ Database Used
 
@@ -127,6 +175,11 @@ Start the server:
 ```bash
 npm run dev
 ```
+Test the server:
+
+```bash
+npm test
+```
 
 The server will run at `http://localhost:5000`
 
@@ -143,7 +196,7 @@ To preview locally:
 ## 📬 Contact
 
 Created by **Vishal Kashyap** 🧑‍💻
-📧 [vishalkashyap165@gmail.com](mailto:vishalkashyap165@gmail.com)
+📧 [vishalkashyap165@gmail.com](mailto:singhvishalk165@gmail.com)
 🌐 [GitHub: vishalsiingh](https://github.com/vishalsiingh)
 
 ---
