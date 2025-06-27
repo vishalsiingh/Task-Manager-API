@@ -1,0 +1,50 @@
+openapi: 3.0.0
+info:
+  title: Task Manager API
+  version: 1.0.0
+servers:
+  - url: http://localhost:5000
+paths:
+  /api/tasks:
+    get:
+      summary: Get all tasks
+      responses:
+        '200':
+          description: Success
+    post:
+      summary: Create a new task
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                title:
+                  type: string
+      responses:
+        '201':
+          description: Created
+  /api/tasks/{id}:
+    put:
+      summary: Update task
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Updated
+    delete:
+      summary: Delete task
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Deleted
