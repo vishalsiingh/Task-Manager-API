@@ -126,6 +126,20 @@ curl -X DELETE http://localhost:5000/api/tasks/<task_id>
 
 ![Keploy API Test Report](screenshots/keploy-test-report.png)
 
+## 📝 Blog Post on API Testing with Keploy Chrome Extension
+
+As part of Task 2, I explored API testing using the Keploy Chrome Extension on two real-world websites:
+
+- JSONPlaceholder
+- Swiggy Instamart
+
+📖 [Read the full blog here](https://your-blog-link.com)
+
+This blog includes:
+- Setup steps
+- Screenshots of tests
+- Experience with AI-generated API testing
+
 
 
 
